@@ -1,1 +1,1 @@
-Gerador de Certificados
+Gerador de Certificados utilizados pelo PET Engenharia Elétrica IFPB

@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'mainwindow.ui'
 #
-# Created by: PyQt5 UI code generator 5.7.1
+# Created by: PyQt5 UI code generator 5.6
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -33,7 +33,7 @@ class Ui_Gerador(object):
         self.abrir_participantes.setGeometry(QtCore.QRect(340, 210, 100, 27))
         self.abrir_participantes.setObjectName("abrir_participantes")
         self.gerar_certificado = QtWidgets.QPushButton(self.centralWidget)
-        self.gerar_certificado.setGeometry(QtCore.QRect(100, 380, 161, 27))
+        self.gerar_certificado.setGeometry(QtCore.QRect(59, 380, 141, 27))
         self.gerar_certificado.setObjectName("gerar_certificado")
         self.arquivos_processados = QtWidgets.QListWidget(self.centralWidget)
         self.arquivos_processados.setGeometry(QtCore.QRect(590, 90, 256, 192))
@@ -47,6 +47,12 @@ class Ui_Gerador(object):
         self.label_3 = QtWidgets.QLabel(self.centralWidget)
         self.label_3.setGeometry(QtCore.QRect(70, 280, 111, 17))
         self.label_3.setObjectName("label_3")
+        self.label_4 = QtWidgets.QLabel(self.centralWidget)
+        self.label_4.setGeometry(QtCore.QRect(610, 70, 211, 17))
+        self.label_4.setObjectName("label_4")
+        self.checar_certificado = QtWidgets.QPushButton(self.centralWidget)
+        self.checar_certificado.setGeometry(QtCore.QRect(220, 380, 151, 27))
+        self.checar_certificado.setObjectName("checar_certificado")
         Gerador.setCentralWidget(self.centralWidget)
         self.menuBar = QtWidgets.QMenuBar(Gerador)
         self.menuBar.setGeometry(QtCore.QRect(0, 0, 974, 25))
@@ -99,6 +105,8 @@ class Ui_Gerador(object):
         self.gerar_certificado.setText(_translate("Gerador", "Gerar Certificado"))
         self.abrir_saida.setText(_translate("Gerador", "Abrir"))
         self.label_3.setText(_translate("Gerador", "Pasta de saída"))
+        self.label_4.setText(_translate("Gerador", "Lista de arquivos processados"))
+        self.checar_certificado.setText(_translate("Gerador", "Checar Certificados"))
         self.menuBar.setToolTip(_translate("Gerador", "Menus aqui"))
         self.menuGerador_de_Certificados.setTitle(_translate("Gerador", "Arquivo"))
         self.menuAbrir.setTitle(_translate("Gerador", "Abrir"))

@@ -104,9 +104,9 @@ class Gerador(QMainWindow):
 
 
     def clear_files(self):
-
+        self.saida = "'"+self.saida+"'"
         os.system('rm *.aux *.log')
-        os.system('mv *.pdf Certificados')
+        os.system('mv *.pdf '+self.saida)
 
 
 app = QApplication(sys.argv)
